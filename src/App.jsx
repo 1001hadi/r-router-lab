@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/Main";
@@ -7,9 +6,6 @@ import Price from "./pages/Price";
 import Nav from "./components/Nav";
 
 function App() {
-  // const [] = useState(0)
-  const apiKey = import.meta.env.VITE_API_KEY;
-
   return (
     <>
       <Nav />
